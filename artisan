@@ -6,7 +6,7 @@ $fromPackage = __DIR__."/../../autoload.php";
 if (file_exists($fromPackage)) {
     require_once $fromPackage;
 } else {
-    require_once "./vendor/autoload.php";
+    require_once __DIR__."/vendor/autoload.php";
 }
 
 use Symfony\Component\Console\Input\ArgvInput;
